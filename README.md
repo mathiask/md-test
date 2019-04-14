@@ -38,6 +38,8 @@ GraphicsBoard --> D
 
 ## Sequence Diagram
 ![Sequence diagram](https://g.gravizo.com/svg?
-  Alice -> Bob: synchronous call
-  Bob ->> C: asynchronous call
+@startuml
+  Alice -> Bob: synchronous call;
+  Bob ->> C: asynchronous call;
+@enduml
 )
