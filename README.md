@@ -8,12 +8,9 @@ var x = 42;
 ## Dot diagram
 ![DOT diagram](https://g.gravizo.com/svg?
 digraph G {
-    // rankdir=LR
-    ordering=out
     A -> B
-    B -> A [label=back]
-    A -> C [style=dotted]
-}
+    B -> A 
+    A -> C }
 )
 
 ## Class Diagram
@@ -34,7 +31,7 @@ note right: an interface
 
 hide D members
 hide D circle
-B --> D
+GraphicsBoard --> D
 )
 
 ## Sequence Diagram
