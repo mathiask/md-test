@@ -25,10 +25,11 @@ A -> C;
 @enduml
 )
 
-
-
 ## Class Diagram
-![Class diagram](https://g.gravizo.com/svg?
+![Class diagram](https://g.gravizo.com/source/svg/MAGIC_MARK1?
+<details> 
+<summary></summary>
+MAGIC_MARK1
 @startuml;
 class Player {;
   x;
@@ -48,7 +49,8 @@ hide D members;
 hide D circle;
 GraphicsBoard --> D;
 @enduml;
-)
+MAGIC_MARK1
+</details>
 
 ## Sequence Diagram
 ![Sequence diagram](https://g.gravizo.com/svg?
