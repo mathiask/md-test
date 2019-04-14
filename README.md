@@ -15,6 +15,7 @@ digraph G {
 
 ## Class Diagram
 ![Class diagram](https://g.gravizo.com/svg?
+@startuml
 class Player {
   x
 }
@@ -37,5 +38,5 @@ GraphicsBoard --> D
 ## Sequence Diagram
 ![Sequence diagram](https://g.gravizo.com/svg?
   Alice -> Bob: synchronous call
-  Alice ->> Bob: asynchronous call
+  Bob ->> C: asynchronous call
 )
