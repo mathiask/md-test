@@ -7,7 +7,7 @@ var x = 42;
 ```
 ## Dot diagram
 ![Alt text](https://g.gravizo.com/svg?
-  digraph G {
+  digraph {
     size ="4,4";
     main [shape=box];
     main -> parse [weight=8];
