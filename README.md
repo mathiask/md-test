@@ -25,8 +25,8 @@ A -> C;
 @enduml
 )
 
-## Class Diagram
-![Class diagram](https://g.gravizo.com/source/svg/MAGIC_MARK1?
+## Class Diagram (complex, indirect)
+![Class diagram](https://g.gravizo.com/source/svg/MAGIC_MARK1?https%3A%2F%2Fraw.githubusercontent.com%2Fmathiask%2Fmd-test%2Fmaster%2FREADME.md)
 <details> 
 <summary></summary>
 MAGIC_MARK1
