@@ -13,6 +13,14 @@ digraph G {
     A -> C }
 )
 
+## Class Diagram (minimal)
+![minimal](https://g.gravizo.com/svg?
+@startuml
+A --> B
+A -> C
+@enduml
+)
+
 ## Class Diagram
 ![Class diagram](https://g.gravizo.com/svg?
 @startuml
