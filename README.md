@@ -10,7 +10,8 @@ var x = 42;
 digraph G {
     A -> B
     B -> A 
-    A -> C }
+    A -> C 
+}
 )
 
 ## Class Diagram (minimal)
