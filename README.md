@@ -33,6 +33,7 @@ note right: an interface
 hide D members
 hide D circle
 GraphicsBoard --> D
+@enduml
 )
 
 ## Sequence Diagram
