@@ -1,14 +1,25 @@
-# md-test
+#Test of GH_Pages, Syntax Highlighting and Embedded Diagrams
+(see https://mathiask.github.io/md-test/)
+
 A simple test
 ```js
 var x = 42;
 ```
 ## Dot diagram
 ![Alt text](https://g.gravizo.com/svg?
-digraph {
-    // rankdir=LR
-    ordering=out
-    A -> B
-    B -> A [label=back]
-    A -> C [style=dotted]
-})
+  digraph G {
+    aize ="4,4";
+    main [shape=box];
+    main -> parse [weight=8];
+    parse -> execute;
+    main -> init [style=dotted];
+    main -> cleanup;
+    execute -> { make_string; printf}
+    init -> make_string;
+    edge [color=red];
+    main -> printf [style=bold,label="100 times"];
+    make_string [label="make a string"];
+    node [shape=box,style=filled,color=".7 .3 1.0"];
+    execute -> compare;
+  }
+)
