@@ -6,20 +6,39 @@ A simple test
 var x = 42;
 ```
 ## Dot diagram
-![Alt text](https://g.gravizo.com/svg?
-  digraph {
-    size ="4,4";
-    main [shape=box];
-    main -> parse [weight=8];
-    parse -> execute;
-    main -> init [style=dotted];
-    main -> cleanup;
-    execute -> { make_string; printf}
-    init -> make_string;
-    edge [color=red];
-    main -> printf [style=bold,label="100 times"];
-    make_string [label="make a string"];
-    node [shape=box,style=filled,color=".7 .3 1.0"];
-    execute -> compare;
-  }
+![DOT diagram](https://g.gravizo.com/svg?
+digraph G {
+    // rankdir=LR
+    ordering=out
+    A -> B
+    B -> A [label=back]
+    A -> C [style=dotted]
+}
+)
+
+## Class Diagram
+![Class diagram](https://g.gravizo.com/svg?
+class Player {
+  x
+}
+
+Player --> GraphicsBoard
+
+interface Board {
+  p
+  +m()
+}
+GraphicsBoard -> Board
+
+note right: an interface
+
+hide D members
+hide D circle
+B --> D
+)
+
+## Sequence Diagram
+![Sequence diagram](https://g.gravizo.com/svg?
+  Alice -> Bob: synchronous call
+  Alice ->> Bob: asynchronous call
 )
