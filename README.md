@@ -1,5 +1,5 @@
 # Test of GH_Pages, Syntax Highlighting and Embedded Diagrams
-(see https://mathiask.github.io/md-test/)
+(see (https://mathiask.github.io/md-test/))
 
 A simple test
 ```js
